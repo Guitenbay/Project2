@@ -81,7 +81,7 @@ public class JungleFX extends Application {
             }
         }
 
-        Scene scene = new Scene(pane);
+        Scene scene = new Scene(pane, 1200, 800);
         primaryStage.setTitle("JungleFX");
         primaryStage.setScene(scene);
         primaryStage.show();
